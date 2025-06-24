@@ -1,34 +1,25 @@
-# 🧠 AI-Powered Document Chatbot
+# 🧠 AI Medical Chatbot with RAG (HuggingFace, LangChain, FAISS, Mistral, Streamlit)
 
-A full-featured AI chatbot that allows users to interact with PDF documents using natural language queries. Powered by **LangChain**, **HuggingFace**, **FAISS**, and a user-friendly **Streamlit** interface.
-
----
-
-## 🚀 Tech Stack
-
-- **LangChain** – Framework for building applications powered by LLMs.
-- **LangChain Community** – Community-built integrations for LangChain.
-- **LangChain HuggingFace** – Integrations with HuggingFace models.
-- **FAISS (CPU)** – Vector similarity search for retrieving relevant document chunks.
-- **PyPDF** – Extracts text from PDF documents.
-- **Huggingface Hub** – Hosts and retrieves pre-trained models.
-- **Streamlit** – Used to build a clean and interactive frontend.
-- **Pipenv** – Python environment and dependency manager.
+An end-to-end AI-powered **Medical Chatbot** that uses Retrieval-Augmented Generation (RAG) to answer health-related queries. Built with open-source tools for educational and research purposes.
 
 ---
 
-## ⚙️ Setup Instructions
+## 🧪 Features
 
-### 1. Prerequisite: Install Pipenv
-
-Install Pipenv using the official documentation:  
-👉 [Pipenv Installation Guide](https://pipenv.pypa.io/en/latest/installation.html)
+- 🗂️ Context-aware responses using **LangChain** RAG
+- 💬 Conversational UI with **Streamlit**
+- 🧬 Medical text embeddings with **HuggingFace Transformers**
+- ⚡ Fast vector search via **FAISS**
+- 🧠 Powerful LLM backend (e.g., **Mistral** or any HuggingFace-compatible model)
 
 ---
 
-### 2. Clone the Repository
+## 📦 Tech Stack
 
-```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
-```
+- **Frontend**: Streamlit
+- **Embeddings**: HuggingFace Transformers (e.g., `sentence-transformers/all-MiniLM-L6-v2`)
+- **Vector DB**: FAISS (CPU)
+- **Backend / Orchestration**: LangChain
+- **LLM**: Mistral / HuggingFace Hub model
+
+---
